@@ -5,8 +5,8 @@ PRODUCT_RELEASE_NAME := f320
 $(call inherit-product, device/lge/f320/f320.mk)
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/mahdi/configs/common.mk)
-$(call inherit-product, vendor/mahdi/configs/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := f320
